@@ -1,0 +1,512 @@
+{
+  "primary_item": "고구마",
+  "items": [
+    "고구마"
+  ],
+  "kpi": {
+    "avg_temp": 26.4,
+    "avg_temp_delta": 3.0,
+    "total_rain": 176.5,
+    "total_rain_delta": -13.5,
+    "avg_humidity": 68.5,
+    "total_sunshine": 190.2,
+    "price": 1684.0,
+    "price_delta": -1.6,
+    "volume": 0.0,
+    "volume_delta": 0.0
+  },
+  "months": [
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec"
+  ],
+  "price_trends": [
+    {
+      "label": "고구마",
+      "data": [
+        3251,
+        3379,
+        3835,
+        4112,
+        3716,
+        4419,
+        4828,
+        5164,
+        5976,
+        6599,
+        6375,
+        6070
+      ]
+    }
+  ],
+  "early_warning": {
+    "active": true,
+    "message": "현재 폭염(33도 이상) 누적 일수가 <b>3일</b>로 위험 수준입니다. 기상 이변에 따른 2주 뒤(Lag 14) 고구마 도매가격 85% 확률로 폭등이 예상됩니다. 재고 확보를 권장합니다."
+  },
+  "sim_baseline": [
+    3000
+  ],
+  "grid_summaries": [
+    {
+      "item_name": "고구마",
+      "current_price": 41654,
+      "predicted_price": 36470,
+      "change_rate": -12.4,
+      "sparkline": [
+        30326,
+        33127,
+        35433,
+        41008,
+        45277,
+        43746,
+        41654
+      ]
+    },
+    {
+      "item_name": "사과",
+      "current_price": 86306,
+      "predicted_price": 89064,
+      "change_rate": 3.2,
+      "sparkline": [
+        67696,
+        61148,
+        64339,
+        66967,
+        72270,
+        83342,
+        86306
+      ]
+    },
+    {
+      "item_name": "배추",
+      "current_price": 30295,
+      "predicted_price": 31038,
+      "change_rate": 2.5,
+      "sparkline": [
+        16715,
+        18577,
+        20459,
+        22235,
+        26154,
+        25300,
+        30295
+      ]
+    },
+    {
+      "item_name": "무",
+      "current_price": 17248,
+      "predicted_price": 14765,
+      "change_rate": -14.4,
+      "sparkline": [
+        13408,
+        12618,
+        13261,
+        13530,
+        15484,
+        16377,
+        17248
+      ]
+    },
+    {
+      "item_name": "양파",
+      "current_price": 30837,
+      "predicted_price": 32490,
+      "change_rate": 5.4,
+      "sparkline": [
+        17831,
+        18994,
+        21191,
+        23554,
+        23608,
+        27010,
+        30837
+      ]
+    },
+    {
+      "item_name": "마늘",
+      "current_price": 169701,
+      "predicted_price": 191707,
+      "change_rate": 13.0,
+      "sparkline": [
+        117353,
+        126729,
+        142597,
+        167982,
+        179447,
+        172833,
+        169701
+      ]
+    },
+    {
+      "item_name": "대파",
+      "current_price": 50018,
+      "predicted_price": 53994,
+      "change_rate": 7.9,
+      "sparkline": [
+        29172,
+        31552,
+        34225,
+        36845,
+        38964,
+        42166,
+        50018
+      ]
+    },
+    {
+      "item_name": "시금치",
+      "current_price": 155194,
+      "predicted_price": 149745,
+      "change_rate": -3.5,
+      "sparkline": [
+        108837,
+        124502,
+        125432,
+        143244,
+        143645,
+        152179,
+        155194
+      ]
+    },
+    {
+      "item_name": "상추",
+      "current_price": 78421,
+      "predicted_price": 74254,
+      "change_rate": -5.3,
+      "sparkline": [
+        54283,
+        64352,
+        62961,
+        63409,
+        75166,
+        80705,
+        78421
+      ]
+    },
+    {
+      "item_name": "깻잎",
+      "current_price": 92642,
+      "predicted_price": 91053,
+      "change_rate": -1.7,
+      "sparkline": [
+        73903,
+        75992,
+        84303,
+        97549,
+        97172,
+        101975,
+        92642
+      ]
+    },
+    {
+      "item_name": "고추",
+      "current_price": 157850,
+      "predicted_price": 171560,
+      "change_rate": 8.7,
+      "sparkline": [
+        101726,
+        100965,
+        112375,
+        132975,
+        156350,
+        156555,
+        157850
+      ]
+    },
+    {
+      "item_name": "토마토",
+      "current_price": 43893,
+      "predicted_price": 47097,
+      "change_rate": 7.3,
+      "sparkline": [
+        31372,
+        30372,
+        31989,
+        34264,
+        34024,
+        37180,
+        43893
+      ]
+    },
+    {
+      "item_name": "딸기",
+      "current_price": 174179,
+      "predicted_price": 193746,
+      "change_rate": 11.2,
+      "sparkline": [
+        89097,
+        96327,
+        113491,
+        134855,
+        148075,
+        175767,
+        174179
+      ]
+    },
+    {
+      "item_name": "수박",
+      "current_price": 50650,
+      "predicted_price": 52657,
+      "change_rate": 4.0,
+      "sparkline": [
+        40998,
+        43313,
+        41150,
+        43506,
+        50224,
+        53602,
+        50650
+      ]
+    },
+    {
+      "item_name": "참외",
+      "current_price": 83733,
+      "predicted_price": 72006,
+      "change_rate": -14.0,
+      "sparkline": [
+        50853,
+        55222,
+        54468,
+        64230,
+        70465,
+        84010,
+        83733
+      ]
+    },
+    {
+      "item_name": "포도",
+      "current_price": 44692,
+      "predicted_price": 40783,
+      "change_rate": -8.7,
+      "sparkline": [
+        25817,
+        25504,
+        29166,
+        33537,
+        34721,
+        40694,
+        44692
+      ]
+    },
+    {
+      "item_name": "감귤",
+      "current_price": 49915,
+      "predicted_price": 54110,
+      "change_rate": 8.4,
+      "sparkline": [
+        31166,
+        32709,
+        36876,
+        41843,
+        41458,
+        49350,
+        49915
+      ]
+    },
+    {
+      "item_name": "배",
+      "current_price": 100152,
+      "predicted_price": 90952,
+      "change_rate": -9.2,
+      "sparkline": [
+        62645,
+        64167,
+        75938,
+        90446,
+        82828,
+        88366,
+        100152
+      ]
+    }
+  ],
+  "sensitivity_data": [
+    {
+      "category": "채소류/과실류",
+      "item": "고구마",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "사과",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "배추",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "심각",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "무",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "심각",
+      "heavy_rain": "주의",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "양파",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "주의",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "마늘",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "안전",
+      "heavy_rain": "안전",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "대파",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "시금치",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "심각",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "상추",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "심각",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "깻잎",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "심각",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "고추",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "토마토",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "주의",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "딸기",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "주의",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "수박",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "참외",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "포도",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "감귤",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "주의",
+      "snow": "안전",
+      "drought": "주의"
+    },
+    {
+      "category": "채소류/과실류",
+      "item": "배",
+      "temp": "1.0",
+      "rain": "1.0",
+      "heat": "주의",
+      "heavy_rain": "심각",
+      "snow": "안전",
+      "drought": "주의"
+    }
+  ]
+}
