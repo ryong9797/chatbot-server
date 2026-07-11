@@ -12,7 +12,8 @@ def get_price():
         item = params.get('item', {}).get('value')
         
         # 깃허브 주소 (파일 이름이 '감귤.json', '감자.json' 형태라고 가정)
-        url = f"https://raw.githubusercontent.com/ryong9797/chatbot-server/main/{item}.json"
+        url =# 기존 주소에서 {item}.json 부분을 data_{item}.json으로 수정합니다.
+url = f"https://raw.githubusercontent.com/ryong9797/chatbot-server/main/data_{item}.json"
         
         response = requests.get(url)
         
