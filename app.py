@@ -13,7 +13,8 @@ def get_price():
         
         # 깃허브 파일명 규칙: data_감귤.json, data_감자.json ...
         filename = f"data_{item}.json"
-        url = f"https://raw.githubusercontent.com/ryong9797/chatbot-server/main/{filename}"
+       # app.py 의 url 부분을 아래처럼 고정값으로 바꿔서 테스트해보세요.
+url = "https://raw.githubusercontent.com/ryong9797/chatbot-server/main/data_감귤.json"
         
         res = requests.get(url)
         
