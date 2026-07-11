@@ -8,7 +8,7 @@ def get_price():
     req = request.get_json()
     try:
         item = req['action']['parameters']['item']['value']
-        url = f"https://ryong9797.github.io/icb10proj2/weather-data/report/api/data_{item}.json"
+        url = f"https://raw.githubusercontent.com/ryong9797/chatbot-server/main/data_{item}.json"
         response = requests.get(url)
         data = response.json()
         price = data.get('price', '정보 없음')
