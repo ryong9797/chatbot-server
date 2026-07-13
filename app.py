@@ -17,12 +17,24 @@ def get_price():
         detail_params = action.get('detailParams', {})
         params = action.get('params', {})
         
+        # 1. 챗봇 빌더가 분석한 파라미터 추출 시도
         item = None
         if 'item' in detail_params:
             item = detail_params.get('item', {}).get('value')
         elif 'item' in params:
             item = params.get('item')
         
+        # [보완 로직] 빌더 매핑 누락으로 item이 비어있을 때 사용자의 실제 발화(utterance)에서 직접 추출
+        if not item:
+            utterance = req.get('userRequest', {}).get('utterance', '')
+            # 서버에서 취급하는 품목 목록 정의
+            supported_items = ["배추", "무", "양파", "대파", "마늘", "감자", "감귤", "사과", "배"]
+            for s_item in supported_items:
+                if s_item in utterance:
+                    item = s_item
+                    break
+        
+        # 품목 정보가 아예 없는 경우 예외 처리
         if not item:
             return jsonify({
                 "version": "2.0",
